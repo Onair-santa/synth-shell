@@ -407,10 +407,6 @@ installer()
 {
 	local SCRIPTS="
 		synth-shell-greeter
-		synth-shell-prompt
-		better-ls
-		alias
-		better-history
 		"
 
 	if [ "$#" -eq 0 ]; then
